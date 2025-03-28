@@ -1,8 +1,9 @@
 {
-    "sensores cba":[
+    "sensores":[
     
-    {"sensor 1": {
-    
+    {
+
+    "nombre": "uno",    
     "id": 10,
     "ubicacion":"chacabuco",
     "fecha": "27/3/25",
@@ -15,10 +16,11 @@
     "presion": "20 psi",
     "altura": "1300 mts"
     
-    }},
+    },
     
-     {"sensor 2": {
-    
+    {
+
+    "nombre": "dos",    
     "id": 20,
     "ubicacion":"chacabuco",
     "fecha": "27/3/25",
@@ -31,10 +33,11 @@
     "presion": "20 psi",
     "altura": "1300 mts"
     
-    }}, 
-    
-    {"sensor 3": {
-    
+    },
+
+      {
+
+    "nombre": "trea",    
     "id": 30,
     "ubicacion":"chacabuco",
     "fecha": "27/3/25",
@@ -47,10 +50,11 @@
     "presion": "20 psi",
     "altura": "1300 mts"
     
-    }},
+    },  
     
-     {"sensor 4": {
-    
+    {
+
+    "nombre": "cuatro",    
     "id": 40,
     "ubicacion":"chacabuco",
     "fecha": "27/3/25",
@@ -63,10 +67,11 @@
     "presion": "20 psi",
     "altura": "1300 mts"
     
-    }},
+    },
     
-     {"sensor 5": {
-    
+     {
+
+    "nombre": "cinco",    
     "id": 50,
     "ubicacion":"chacabuco",
     "fecha": "27/3/25",
@@ -79,10 +84,11 @@
     "presion": "20 psi",
     "altura": "1300 mts"
     
-    }},
+    },
     
-     {"sensor 6": {
-    
+     {
+
+    "nombre": "seis",    
     "id": 60,
     "ubicacion":"chacabuco",
     "fecha": "27/3/25",
@@ -95,51 +101,59 @@
     "presion": "20 psi",
     "altura": "1300 mts"
     
-    }}],
+    }],
     
     
     
     
     "barrios cba":[
       
-    {"villa walcarde":{
+    {
+    "nombre": "villa walcarde",
     "id": 1,
     "codigo postal": 5001,
     "poblacion": 2000,
     "lluvias anuales": "600 mm",
     "sensor activo": 10
-    }},
+    },
     
-    {"cerro de las rosas":{
+    {
+    "nombre": "cerro de las rosas",
     "id": 2,
     "codigo postal": 5001,
     "poblacion": 2000,
     "lluvias anuales": "600 mm",
     "sensor activo": 10
-    }},
+    },
     
-    {"general paz":{
+    {
+
+    "nombre":"general paz",
     "id": 3,
     "codigo postal": 5001,
     "poblacion": 2000,
     "lluvias anuales": "600 mm",
     "sensor activo": 10
-    }},
-    
-    {"villa allende":{
+    },
+
+    {
+        
+    "nombre":"villa allende",
     "id": 4,
     "codigo postal": 5001,
     "poblacion": 2000,
     "lluvias anuales": "600 mm",
     "sensor activo": 10
-    }},
+    },
     
-    {"alta cordoba":{
+    {
+
+    "nombre":"alta cordoba",
     "id": 5,
     "codigo postal": 5001,
     "poblacion": 2000,
     "lluvias anuales": "600 mm",
     "sensor activo": 10
-    }}
+    }
     ]
   }
